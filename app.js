@@ -46,6 +46,6 @@ Now take the sorted string, and drop all the characters after (and including) th
         finalAnswer.push(sortableOccurrences[i].letter);
     }
 
-    console.log("FINAL ANSWER: d" + finalAnswer.join(''));
+    console.log("FINAL ANSWER: " + finalAnswer.join(''));
 
 }());
